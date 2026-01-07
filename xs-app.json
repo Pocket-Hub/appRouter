@@ -1,0 +1,14 @@
+{
+  "welcomeFile": "index.html",
+  "authenticationMethod": "route",
+  "routes": [
+    {
+      "source": "^/(.*)$",
+      "localDir": ".",
+      "authenticationType": "ias"
+    }
+  ],
+  "logout": {
+    "logoutEndpoint": "/do/logout"
+  }
+}
